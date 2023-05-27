@@ -1,0 +1,342 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul, ol{
+    list-style:none;
+}
+.nav-list a{
+    text-decoration:none;
+    color: white;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+hr{
+    margin: 20px;
+}
+
+/************HEADER**************/
+header{
+}
+nav{
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 90px;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    margin: 20px;
+    font-size: 2rem;
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 5px;
+}
+ul{
+    display: flex;
+    font-size: 1rem;
+}
+ul li{
+    margin: 10px;
+    border-bottom: 2px solid white;
+}
+.img-menu{
+    width: 100%;
+    background-image: url('../img/bienvenida2.jpg');
+    background-color: black;
+    background-position-y: 30%;
+    background-size: 100%;
+    background-repeat: no-repeat;padding: 50px;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+/**********MAIN*****************/
+.cont{
+    display: flex;
+    width: 100%;
+    height: 200px;
+}
+.cont a{
+    color: black;
+    padding: 5px;
+}
+.link-install{
+    border-right: solid 1px black;
+}
+.text-cont{
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: column;
+}
+.text-cont p{
+    text-align: justify;
+}
+.img-super{
+    background-image: url('../img/super.jpg');
+    background-size: 100%;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    border-top-left-radius: 100px ;
+    border-bottom-right-radius: 100px;
+    width: 50%;
+    height: 100%;
+}
+.img-gba{
+    background-image: url('../img/gba.jpg');
+    background-size: 100%;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    border-top-left-radius: 100px ;
+    border-bottom-left-radius: 100px;
+    width: 50%;
+    height: 100%;
+}
+.img-n64{
+    background-image: url('../img/n64b.jpg');
+    background-size: 100%;
+    background-position-y:65%;
+    background-repeat: no-repeat;
+    background-color: black;
+    border-top-right-radius: 100px ;
+    border-bottom-left-radius: 100px;
+    width: 50%;
+    height: 100%;
+}
+/**********FOOTER***************/
+footer hr{
+    width: 90%;
+}
+footer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(231, 231, 231);
+}
+h4{
+    margin-bottom: 20px;
+}
+.redes{
+    display: flex;
+    width: 100%;
+    justify-content:space-around;
+}
+.redes a{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+
+/*******************************************EMULADORES*/
+
+.img-super-b{
+    background-image: url('../img/emusuper.jpg');
+    background-size: 100%;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    border-top-right-radius: 100px ;
+    border-bottom-left-radius: 100px;
+    width: 50%;
+    height: 100%;
+}
+.img-gba-b{
+    background-image: url('../img/emugba.webp');
+    background-size: 100%;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    border-top-right-radius: 100px ;
+    border-bottom-right-radius: 100px;
+    width: 50%;
+    height: 100%;
+}
+.img-n64-b{
+    background-image: url('../img/emu64.webp');
+    background-size: 100%;
+    background-position-y:65%;
+    background-repeat: no-repeat;
+    background-color: black;
+    border-top-left-radius: 100px ;
+    border-bottom-right-radius: 100px;
+    width: 50%;
+    height: 100%;
+}
+
+/*******************************************ROMS*/
+
+.cont-rom h3{
+    text-align: center;
+    margin: 10px;
+}
+.cont-rom{
+    width: 100%;
+    align-items: center;
+}
+.descarga-rom{
+    width: 100%;
+    border: solid 1px black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.cassette{
+    display:flex;
+    flex-direction: column;  
+    align-items: center;
+}
+.cassette-super{
+    border: 1px solid black;
+    width: 180px;
+    height: 100px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-size: 60% 50%;
+    background-repeat: no-repeat;
+    background-position: center 0%;
+    background-color: gray;
+}
+.cassette-gba{
+    border: 1px solid black;
+    width: 130px;
+    height: 130px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-size: 60% 50%;
+    background-repeat: no-repeat;
+    background-position: center 0%;
+    background-color: gray;
+}
+.cassette-n64{
+    border: 1px solid black;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 180px;
+    height: 100px;
+    background-size: 60% 50%;
+    background-repeat: no-repeat;
+    background-position: center 0%;
+    background-color: gray;
+}
+/*****imagenes ROMS****/
+.img-super1{
+    background-image: url('../img/megaman.png');
+}.img-super2{
+    background-image: url('../img/mk.png');
+}.img-super3{
+    background-image: url('../img/pokemon.png');
+}.img-super4{
+    background-image: url('../img/starwars.png');
+}
+.img-gba1{
+    background-image: url('../img/megaman.png');
+}.img-gba2{
+    background-image: url('../img/mk.png');
+}.img-gba3{
+    background-image: url('../img/pokemon.png');
+}.img-gba4{
+    background-image: url('../img/starwars.png');
+}
+.img-n641{
+    background-image: url('../img/megaman.png');
+}.img-n642{
+    background-image: url('../img/mk.png');
+}.img-n643{
+    background-image: url('../img/pokemon.png');
+}.img-n644{
+    background-image: url('../img/starwars.png');
+}
+
+/*******************************************MUSICA*/
+iframe{
+    border-radius: 30px;
+}
+.art-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.art-content h3, p{
+    margin: 20px;
+}
+
+/*******************************************IMAGENES*/
+
+.cont-img h3{
+    text-align: center;
+    margin: 10px;
+}
+.cont-img{
+    width: 100%;
+    align-items: center;
+}
+.descarga-img{
+    width: 100%;
+    border: solid 1px black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.imagen{
+    display:flex;
+    flex-direction: column;  
+    align-items: center;
+}
+.fondo{
+    border: 1px solid black;
+    width: 180px;
+    height: 100px;
+    border-radius: 10px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+.img-super1a{
+    background-image: url('../img/super1.jpg');
+}.img-super2a{
+    background-image: url('../img/super2.jpg');
+}.img-super3a{
+    background-image: url('../img/super3.jpg');
+}.img-super4a{
+    background-image: url('../img/super4.jpg');
+}
+.img-gba1a{
+    background-image: url('../img/gba1.jpg');
+}.img-gba2a{
+    background-image: url('../img/gba2.jpg');
+}.img-gba3a{
+    background-image: url('../img/gba3.jpg');
+}.img-gba4a{
+    background-image: url('../img/gba4.jpg');
+}
+.img-n641a{
+    background-image: url('../img/n1.jpg');
+}.img-n642a{
+    background-image: url('../img/n2.jpg');
+}.img-n643a{
+    background-image: url('../img/n3.jpg');
+}.img-n644a{
+    background-image: url('../img/n4.jpg');
+}
